@@ -16,12 +16,8 @@ namespace Inheritance
             Legs = 2;
             Environment = "tops of trees and the sky";
 
-            var text = $"The {Name} is a {Color}-colored, {Legs} legged bird." +
-                         $"Its {Beak} beak and {Tallons} tallons are essential" +
-                         $" to its survival in the {Environment}. Yes, it is {CanFly}" +
-                         $" that {Name}s are able to fly despite their size.";
 
-            Console.WriteLine(text);
+          
 
         }
 
